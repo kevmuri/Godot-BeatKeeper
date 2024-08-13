@@ -41,3 +41,6 @@ Setting the scans to trigger on _physics_process instead may prove more stable r
 
 ## Audio Mode
 If you want to have an AudioStreamPlayer play on a signal emission, you will need to turn on Audio Mode, which will allow the BeatKeeper node to emit the `_audio` signals. These are slightly offset by the percieved AudioServer delay and will make your AudioStreamPlayer play at the correct time instead of slightly later.
+
+# Contribution
+Originally written by ynot01, updated to Godot 4.x by kevmuri.
